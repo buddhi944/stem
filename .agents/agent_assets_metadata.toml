@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Q3KvPKlxizP3knm_z2T5R"
+uri = "file://artifacts/stems-website/public/images/project-commercial.png"
+type = "image"
+title = "Commercial Tower Development"
+
+[[generated]]
+id = "8LDtsdez79ebRgQBcHND6"
+uri = "file://artifacts/stems-website/public/images/project-residential.png"
+type = "image"
+title = "Residential Complex Project"
+
+[[generated]]
+id = "y4rSEJVixpavilCqQjXFC"
+uri = "file://artifacts/stems-website/public/images/project-industrial.png"
+type = "image"
+title = "Industrial Infrastructure"
+
+[[generated]]
+id = "c78mejSsDN9CdryaeYnE6"
+uri = "file://artifacts/stems-website/public/images/project-bridge.png"
+type = "image"
+title = "Bridge Engineering Project"
+
+[[generated]]
+id = "NqSnz358nVfNYeeaDK7LS"
+uri = "file://artifacts/stems-website/public/images/project-airport.png"
+type = "image"
+title = "Airport Terminal Expansion"
+
+[[generated]]
+id = "mCSXmhn-FWm2uV0MMK36H"
+uri = "file://artifacts/stems-website/public/images/project-educational.png"
+type = "image"
+title = "Educational Campus Development"

@@ -1,0 +1,424 @@
+STEMS Consultants Pte Ltd — Full Website Revamp Master Prompt
+Project Overview
+
+Create a premium, fully functional modern corporate website for STEMS Consultants Pte Ltd, a structural engineering and civil engineering consultancy company with over 40 years of experience. The website should feel modern, trustworthy, innovative, corporate, and engineering-focused while maintaining a clean and minimal user experience.
+
+The website must be designed with:
+
+Modern UI/UX
+Smooth premium animations
+Interactive sections
+Professional blue & white color palette
+Responsive design for all devices
+Fast loading performance
+SEO optimized structure
+Fully functional frontend + backend integration ready
+Enterprise-level aesthetic similar to modern engineering, architecture, and consultancy firms
+Brand Direction
+Style
+Minimalistic
+Professional
+Futuristic corporate
+Elegant engineering aesthetic
+Clean layouts with whitespace
+Smooth transitions and premium interactions
+Color Palette
+
+Use the exact premium corporate color direction inspired by the STEMS logo.
+
+Primary Brand Colors
+Deep Steel Blue — #0A4F8F
+Structural Blue — #0D5EA8
+Engineering Navy — #063B6D
+Soft Ice White — #F5F9FF
+Clean White — #FFFFFF
+Secondary Accent Colors
+Technical Sky Blue — #5B9FE8
+Light Blueprint Blue — #D9E9FF
+Dark Structural Navy — #04294A
+Glass Frost White — rgba(255,255,255,0.08)
+Color Usage Direction
+Use deep blue gradients throughout the website.
+Backgrounds should feel clean, minimal, and corporate.
+White sections should create strong contrast against dark blue engineering-inspired blocks.
+Use glowing blue hover effects subtly.
+Use glassmorphism with transparent blue overlays.
+Create premium depth using layered blue shadows.
+Use gradient transitions between navy blue and royal blue.
+Gradient Recommendations
+
+Primary Gradient: linear-gradient(135deg, #063B6D 0%, #0D5EA8 100%)
+
+Secondary Gradient: linear-gradient(135deg, #0A4F8F 0%, #5B9FE8 100%)
+
+Background Gradient: linear-gradient(180deg, #F5F9FF 0%, #D9E9FF 100%)
+
+Typography
+
+Use modern fonts:
+
+Headings: Poppins / Sora / Montserrat
+Body: Inter / Manrope
+
+Typography should feel premium and highly readable.
+
+Website Goal
+
+The website should:
+
+Establish authority and trust
+Showcase expertise and completed projects
+Generate leads
+Present STEMS as an innovative engineering consultancy
+Improve online presence with modern visuals and interactions
+Website Structure
+1. Hero Section
+
+Create a premium fullscreen hero section with:
+
+High quality engineering/building visual background
+Subtle animated grid overlays
+Floating structural blueprint animations
+Motion blur transitions
+Parallax scrolling effect
+Animated geometric lines inspired by engineering structures
+
+Hero content: Headline: "Engineering Stronger Futures Through Structural Excellence"
+
+Subtext: "Leading structural engineering and consultancy solutions with over 40 years of industry expertise."
+
+CTA Buttons:
+
+View Projects
+Contact Us
+
+Animations:
+
+Text reveal animations
+Smooth fade and slide-up motion
+Interactive mouse-follow glow effect
+Background motion gradients
+2. About Section
+
+Modern split-layout design.
+
+Include:
+
+Company introduction
+40+ years experience highlight
+Statistics cards with animated counters
+
+Stats:
+
+40+ Years Experience
+1000+ Projects Completed
+Expert Engineering Team
+Trusted Industry Reputation
+
+Animations:
+
+Counter-up animations
+Scroll-triggered reveals
+Interactive hover cards
+Soft glowing borders
+3. Services Section
+
+Create a modern card-based layout.
+
+Services:
+
+Structural Engineering
+Building Consultancy
+Project Management
+Geotechnical Engineering
+Building Health Monitoring
+Peer Review of Buildings
+
+Requirements:
+
+Glassmorphism effect
+Hover animations
+3D card tilt interaction
+Animated SVG engineering icons
+Expandable service details modal
+4. Projects Showcase
+
+Create an advanced interactive projects section.
+
+Features:
+
+Masonry grid layout
+Filter categories
+Smooth image transitions
+Hover overlay details
+Animated project cards
+Fullscreen project gallery popup
+Before/after style project previews
+
+Include:
+
+Completed Projects
+Ongoing Projects
+Commercial Buildings
+Residential Structures
+Industrial Infrastructure
+
+Animations:
+
+Scroll reveal
+Hover zoom
+Smooth stagger animations
+Dynamic loading transitions
+5. Process Timeline
+
+Create an interactive horizontal timeline.
+
+Stages:
+
+Planning
+Design
+Construction Supervision
+Project Completion
+
+Requirements:
+
+Animated connecting lines
+Hover interactions
+Motion graphics
+SVG line animations
+Timeline progress effects
+6. Why Choose Us
+
+Modern premium section with:
+
+Floating cards
+Animated gradients
+Engineering-inspired UI elements
+
+Include:
+
+40+ years experience
+Cost-effective solutions
+Expert engineers
+Innovative structural design
+Reliable project delivery
+
+Add:
+
+Interactive infographic style layout
+Animated numbers
+Floating particle effects
+7. Testimonials Section
+
+Modern carousel slider.
+
+Requirements:
+
+Smooth auto-scroll
+Glass cards
+Client profile animations
+Rating interactions
+Blur background transitions
+8. Contact Section
+
+Professional modern contact section.
+
+Include:
+
+Interactive form
+Google Maps integration
+Animated inputs
+Floating labels
+Contact cards
+Office information
+
+Company Details:
+
+STEMS Consultants Pte Ltd
+Sri Lanka
++94 011-2697808
+info@stems.lk
+
+Add:
+
+WhatsApp quick contact button
+Sticky contact CTA
+Email form backend integration
+Navbar Requirements
+
+Create a floating glassmorphism navbar with:
+
+Sticky scroll effect
+Blur background
+Animated underline hover
+Smooth menu transitions
+Mobile responsive menu
+Animated hamburger menu
+
+Menu Items:
+
+Home
+About
+Services
+Projects
+Contact
+Footer Design
+
+Modern premium footer with:
+
+Multi-column layout
+Quick links
+Services links
+Contact information
+Social media icons
+Subtle animated background
+Copyright section
+Animation Requirements
+
+Use modern professional animations only.
+
+Implement:
+
+Framer Motion animations
+GSAP scroll animations
+Smooth scrolling
+Scroll-triggered reveals
+Stagger animations
+Hover micro interactions
+Motion blur effects
+Parallax sections
+Mouse-follow effects
+Gradient motion backgrounds
+Floating engineering wireframe elements
+
+Animations should feel:
+
+Smooth
+Minimal
+Elegant
+Professional
+Premium
+
+Avoid overly flashy effects.
+
+Technical Requirements
+Frontend
+
+Use:
+
+Next.js 15
+React
+Tailwind CSS
+Framer Motion
+GSAP
+ShadCN UI
+TypeScript
+Backend
+
+Use:
+
+Supabase or Firebase
+
+Features:
+
+Functional contact form
+Admin dashboard ready structure
+CMS-ready architecture
+SEO optimization
+Image optimization
+Dynamic project management capability
+Performance Requirements
+
+Optimize for:
+
+90+ Lighthouse Score
+Fast page load
+Lazy loading images
+Responsive image optimization
+SEO metadata
+Accessibility
+Mobile-first responsiveness
+Additional Premium Features
+
+Include:
+
+Loading screen animation
+Scroll progress indicator
+Interactive cursor effect
+Page transition animations
+Dynamic background gradients
+Animated SVG engineering patterns
+Hover soundless micro interactions
+Smart reveal animations
+UI Inspiration
+
+Design inspiration should be similar to:
+
+Premium architecture firms
+Modern engineering consultancies
+High-end SaaS corporate websites
+Apple-level smooth animations
+Minimal enterprise design systems
+Full Website Content Structure
+Homepage Content
+Hero Section Content
+
+Headline: "Leading Structural Engineering Consultancy Services in Sri Lanka for Over 40 Years"
+
+Subheadline: "Delivering innovative, reliable, and cost-effective structural engineering solutions through expertise, precision, and modern engineering practices."
+
+Primary CTA:
+
+View Projects
+
+Secondary CTA:
+
+Contact Us
+
+Hero Background Style:
+
+Modern city architecture visuals
+Blueprint overlays
+Animated structural grid system
+Engineering line motion graphics
+About Section Content
+About STEMS Consultants Pte Ltd
+
+"Welcome to the official website of STEMS Consultants Pte Ltd, a highly respected structural engineering consultancy firm specializing in civil and structural engineering solutions. With more than 40 years of industry expertise, our experienced engineering team delivers innovative, safe, and cost-effective structural solutions tailored to each client’s unique requirements.
+
+From conceptual planning to project completion, we collaborate closely with architects, developers, and clients to ensure exceptional project delivery standards. Whether it is the design of new developments or the renovation of existing structures, our expertise helps transform engineering concepts into reliable and sustainable realities."
+
+Company Highlights
+40+ Years of Experience
+1000+ Successfully Executed Projects
+Exceptional Work Quality
+Trusted Engineering Consultancy
+Experienced Chartered Engineers
+Vision Section
+
+"To become one of the leading structural engineering consultancy firms in the region by delivering innovative engineering solutions with excellence, integrity, and professionalism."
+
+Mission Section
+
+"To provide reliable, cost-effective, and technically advanced structural engineering solutions while maintaining the highest standards of safety, quality, and client satisfaction."
+
+Services Section Content
+Structural Engineering
+
+"Comprehensive structural engineering solutions for commercial, residential, industrial, and infrastructure developments with advanced structural analysis and design methodologies."
+
+Building Consultancy
+
+"Professional consultancy services for construction projects including technical assessments, design recommendations, structural evaluations, and compliance guidance."
+
+Project Management
+
+"End-to-end project management services ensuring timely execution, cost control, quality assurance, and effective coordination throughout the construction lifecycle."
+
+Geo-technical Engineering
+
+"Advanced geo-technical engineering services including soil investigations, foundation recommendations, site analysis, and ground stability assessments."
+
+Building Health Monitoring
+
+"Modern structural health monitoring systems and inspection services to evaluate building performance, durability, and long-term structural integrity."

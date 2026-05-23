@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --background: #F5F9FF;
+  --foreground: #04294A;
+  
+  --primary: #0D5EA8;
+  --primary-foreground: #FFFFFF;
+  
+  --secondary: #5B9FE8;
+  --secondary-foreground: #FFFFFF;
+  
+  --muted: #D9E9FF;
+  --muted-foreground: #063B6D;
+  
+  --accent: #0A4F8F;
+  --accent-foreground: #FFFFFF;
+  
+  --destructive: #ef4444;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #D9E9FF;
+  --input: #D9E9FF;
+  --ring: #0D5EA8;
+
+  --radius: 0.5rem;
+
+  --stems-deep-steel: #0A4F8F;
+  --stems-structural: #0D5EA8;
+  --stems-navy: #063B6D;
+  --stems-ice: #F5F9FF;
+  --stems-white: #FFFFFF;
+  --stems-sky: #5B9FE8;
+  --stems-blueprint: #D9E9FF;
+  --stems-dark-navy: #04294A;
+  --stems-glass: rgba(255, 255, 255, 0.08);
+}
+
+.dark {
+  --background: #04294A;
+  --foreground: #F5F9FF;
+  
+  --primary: #5B9FE8;
+  --primary-foreground: #04294A;
+  
+  --secondary: #0A4F8F;
+  --secondary-foreground: #FFFFFF;
+  
+  --muted: #063B6D;
+  --muted-foreground: #D9E9FF;
+  
+  --accent: #0D5EA8;
+  --accent-foreground: #FFFFFF;
+
+  --border: #063B6D;
+  --input: #063B6D;
+  --ring: #5B9FE8;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-[var(--background)] text-[var(--foreground)];
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass-nav {
+  background: rgba(4, 41, 74, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(91, 159, 232, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(91, 159, 232, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #063B6D 0%, #0D5EA8 100%);
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(135deg, #0A4F8F 0%, #5B9FE8 100%);
+}
+
+.bg-gradient-light {
+  background: linear-gradient(180deg, #F5F9FF 0%, #D9E9FF 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #5B9FE8 0%, #F5F9FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
