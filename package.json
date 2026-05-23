@@ -4,12 +4,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "pnpm -C artifacts/stems-website dev",
-    "api": "pnpm -C artifacts/api-server dev",
-    "build": "vite build"
+    "build": "pnpm -C artifacts/stems-website build"
   },
   "private": true,
   "devDependencies": {
     "prettier": "^3.8.3",
-    "typescript": "~5.9.3"
+    "typescript": "~5.9.3",
+    "vite": "^7.1.3"
   }
 }
